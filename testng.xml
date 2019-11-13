@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Default suite" parallel="methods" verbose="3">
+	<test name="Allure reporting with TestNG tests" skipfailedinvocationcounts="false">
+		<classes>
+			<class
+				name="com.codelabs.examples.selenium.tests.TC_WikipediaSearchTest">
+				<methods>
+					<include name="searchWikipedia" />
+				</methods>
+			</class>
+			<class
+				name="com.codelabs.examples.selenium.tests.TC_PercentageCalculatorTest">
+				<methods>
+					<include name="checkPercentageCalculation" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
